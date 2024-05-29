@@ -1,5 +1,4 @@
-a
-    import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { SUPABASE } from './supabase/supabaseClient';
 import type { Session, Profile } from './types';
